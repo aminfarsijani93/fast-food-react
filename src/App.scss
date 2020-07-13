@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 160vh;  
+}
+div.body-main{
+    display: flex;
+    flex-direction: column;
+    div.header{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/images/banner.jpg);
+        background-size: cover;
+        div.banner{
+            height: 70%;
+            width: 100%;
+        }
+        div.login{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: flex-start;
+            button{
+                padding-bottom: .5em;
+            }
+        }
+    }
+    div.body-filters{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        padding-right: 100px;
+        div.btn-filter{
+            width: 40%;
+            height: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div.icon-pizza{
+                width: 15%;
+                height: 90%;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                img{
+                    width: 70%;
+                    height: 70%;
+                }
+            }
+            div.icon-sandwich{
+                width: 15%;
+                height: 90%;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                img{
+                    width: 70%;
+                    height: 70%;
+                }
+            }
+            div.icon-appetizer{
+                width: 15%;
+                height: 90%;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                img{
+                    width: 70%;
+                    height: 70%;
+                }
+            }
+            div.icon-beverage{
+                width: 15%;
+                height: 90%;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                img{
+                    width: 70%;
+                    height: 70%;
+                }
+            }
+            
+        }
+    }
+    div.mainandbasket{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid gray;
+        div.basket-body{
+            width: 20%;
+            height: 100%;
+            background-color: rgb(255, 232, 215);
+        }
+        div.allfood-body{
+            width: 80%;
+            height: 100%;
+            border-left: 2px solid gray;
+            .ul-allfood{
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                width: 100%;
+                height: 100%;
+                margin-top: 50px;
+                li{
+                    width: 150px;
+                    height: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        width: 70%;
+                        height: 70%;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
