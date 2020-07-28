@@ -15,6 +15,7 @@ export default class App extends Component {
                      image:"/images/1.jpg",
                      price:48000,
                      categoury:"pizza"
+                     code: 20
                   },
                   {
                      name:"ژامبون",
